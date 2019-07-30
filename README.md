@@ -1,5 +1,3 @@
-## libhopper analzyer
-
 ### Build LLVM v6.0.0
 ```
 wget http://releases.llvm.org/6.0.0/llvm-6.0.0.src.tar.xz
