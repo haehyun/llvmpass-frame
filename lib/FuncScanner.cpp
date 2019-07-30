@@ -14,7 +14,7 @@ void FuncScanner::run(llvm::Module* M, const DataLayout* layout)
 		if(F == nullptr) {
 			continue;
 		}
-		scanner(F, M, structAnalyzer);
+		scanner(F, M);
 	}
 	errs() << "----------End of print------------\n\n";
 }

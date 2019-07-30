@@ -1,4 +1,4 @@
-#include "StructAnalyzer.h"
+#include "FuncScanner.h"
 
 #include <llvm/IR/LegacyPassManager.h>	
 #include <llvm/IR/LLVMContext.h>		

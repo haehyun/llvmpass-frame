@@ -12,11 +12,6 @@
 #include "llvm/IR/Module.h"
 #include "llvm/Pass.h"
 #include "llvm/Support/raw_ostream.h"
-#include "ExtAPI.h"
-#include "StructAnalyzer.h"
-#include "Annotation.h"
-
-typedef std::set<std::string> StringSet;
 
 class FuncScanner {		
 public:
